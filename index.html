@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Lee - Research Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            color: #212529;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #003366, #00509e);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #00509e;
+            display: flex;
+            justify-content: center;
+            padding: 0.8rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Section */
+        section {
+            margin-bottom: 2.5rem;
+        }
+        section h2 {
+            font-size: 1.8rem;
+            color: #003366;
+            border-bottom: 2px solid #00509e;
+            padding-bottom: 0.5rem;
+        }
+        section p {
+            margin: 1rem 0;
+        }
+        section ul {
+            list-style: square;
+            padding-left: 1.5rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background: #00509e;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+        .btn:hover {
+            background: #003366;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav a {
+                font-size: 0.9rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Timothy Lee</h1>
+        <p>Quantum Algorithms | Particle Physics | Advanced Research</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#research">Research</a>
+        <a href="#documents">Documents</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I’m Timothy Lee, a fourth-year physics student with a passion for quantum algorithms and neutrino physics. My goal is to contribute to cutting-edge research, including projects like MicroBooNE and DUNE experiments, while pursuing my PhD.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research interests include:</p>
+            <ul>
+                <li>Optimising SWAP gates in quantum circuits for QAOA applications.</li>
+                <li>Exploring applications of the Ising model for solving NP-hard problems like SVP.</li>
+                <li>Developing interaction schedules for multi-dimensional qubit grids.</li>
+                <li>Investigating the implications of neutrino oscillation experiments in MicroBooNE and DUNE.</li>
+            </ul>
+        </section>
+
+        <section id="documents">
+            <h2>Documents</h2>
+            <p>Feel free to download my CV and academic transcript:</p>
+            <a href="cv.pdf" class="btn" download>Download CV</a>
+            <a href="transcript.pdf" class="btn" download>Download Transcript</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via:</p>
+            <p>Email: <a href="mailto:timmi.j.lee@gmail.com">timmi.j.lee@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/timmi" target="_blank">linkedin.com/in/timmi</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Timothy Lee. All Rights Reserved.</p>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+</body>
+</html>
